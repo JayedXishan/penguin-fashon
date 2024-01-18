@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Penguin Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        /* shared */
+        .font-bebus {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-montserrat{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+        /* nav style */
+        nav ul li {
+            list-style: none;
+        }
+        
+    </style>
 </head>
-</head>
+
 <body>
-    
+    <header class="bg-[#FFFBF0;]">
+        <nav class=" px-20 py-10 flex justify-between">
+            <img class="h-15 w-56" src="./icons/logo.png" alt="logo">
+            <ul class="flex font-roboto font-medium">
+                <li class="ml-10">Home</li>
+                <li class="ml-10">Products</li>
+                <li class="ml-10">About us</li>
+                <li class="ml-10">Contact us</li>
+            </ul>
+        </nav>
+    </header>
 </body>
+
 </html>
